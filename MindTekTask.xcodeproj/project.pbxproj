@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54A386FC269EE4BC00429301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A386FB269EE4BC00429301 /* AppDelegate.swift */; };
+		54A386FE269EE4BC00429301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A386FD269EE4BC00429301 /* SceneDelegate.swift */; };
+		54A38700269EE4BC00429301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A386FF269EE4BC00429301 /* ViewController.swift */; };
+		54A38703269EE4BC00429301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A38701269EE4BC00429301 /* Main.storyboard */; };
+		54A38705269EE4BF00429301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54A38704269EE4BF00429301 /* Assets.xcassets */; };
+		54A38708269EE4BF00429301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54A38706269EE4BF00429301 /* LaunchScreen.storyboard */; };
+		54A38713269EE4BF00429301 /* MindTekTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A38712269EE4BF00429301 /* MindTekTaskTests.swift */; };
+		54A3871E269EE4BF00429301 /* MindTekTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3871D269EE4BF00429301 /* MindTekTaskUITests.swift */; };
+		54A3872F269EE69000429301 /* CarouselCollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3872E269EE69000429301 /* CarouselCollectionViewTableViewCell.swift */; };
+		54A38746269EE71C00429301 /* CarouselCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A38745269EE71C00429301 /* CarouselCollectionViewCell.swift */; };
+		54A38753269EEBA900429301 /* CellIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A38752269EEBA900429301 /* CellIdentifiable.swift */; };
+		54A38759269EEC8400429301 /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A38758269EEC8400429301 /* TableView+Extension.swift */; };
+		54A3875E269EEC9500429301 /* ColletionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3875D269EEC9500429301 /* ColletionView+Extension.swift */; };
+		54A38763269EF3B700429301 /* country.json in Resources */ = {isa = PBXBuildFile; fileRef = 54A38762269EF3B700429301 /* country.json */; };
+		54A3876D269EF4AD00429301 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3876C269EF4AD00429301 /* Model.swift */; };
+		54A38775269EF59600429301 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A38774269EF59600429301 /* ViewModel.swift */; };
+		54A3877A269F038200429301 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A38779269F038200429301 /* String+Extension.swift */; };
+		54A3877F269F056700429301 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54A3877E269F056700429301 /* CountryTableViewCell.swift */; };
+		54D9316B269F3A8000A7D3D5 /* SearchHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54D9316A269F3A8000A7D3D5 /* SearchHeaderView.xib */; };
+		54D93170269F3A8D00A7D3D5 /* SearchHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D9316F269F3A8D00A7D3D5 /* SearchHeaderView.swift */; };
+		54D93178269F3D0F00A7D3D5 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54D93177269F3D0F00A7D3D5 /* UIView+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54A3870F269EE4BF00429301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A386F0269EE4BC00429301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A386F7269EE4BC00429301;
+			remoteInfo = MindTekTask;
+		};
+		54A3871A269EE4BF00429301 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54A386F0269EE4BC00429301 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54A386F7269EE4BC00429301;
+			remoteInfo = MindTekTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54A386F8269EE4BC00429301 /* MindTekTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindTekTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A386FB269EE4BC00429301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		54A386FD269EE4BC00429301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		54A386FF269EE4BC00429301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		54A38702269EE4BC00429301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54A38704269EE4BF00429301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54A38707269EE4BF00429301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54A38709269EE4BF00429301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A3870E269EE4BF00429301 /* MindTekTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindTekTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A38712269EE4BF00429301 /* MindTekTaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindTekTaskTests.swift; sourceTree = "<group>"; };
+		54A38714269EE4BF00429301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A38719269EE4BF00429301 /* MindTekTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindTekTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54A3871D269EE4BF00429301 /* MindTekTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindTekTaskUITests.swift; sourceTree = "<group>"; };
+		54A3871F269EE4BF00429301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54A3872E269EE69000429301 /* CarouselCollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		54A38745269EE71C00429301 /* CarouselCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselCollectionViewCell.swift; sourceTree = "<group>"; };
+		54A38752269EEBA900429301 /* CellIdentifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellIdentifiable.swift; sourceTree = "<group>"; };
+		54A38758269EEC8400429301 /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		54A3875D269EEC9500429301 /* ColletionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColletionView+Extension.swift"; sourceTree = "<group>"; };
+		54A38762269EF3B700429301 /* country.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country.json; sourceTree = "<group>"; };
+		54A3876C269EF4AD00429301 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		54A38774269EF59600429301 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		54A38779269F038200429301 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		54A3877E269F056700429301 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		54D9316A269F3A8000A7D3D5 /* SearchHeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchHeaderView.xib; sourceTree = "<group>"; };
+		54D9316F269F3A8D00A7D3D5 /* SearchHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderView.swift; sourceTree = "<group>"; };
+		54D93177269F3D0F00A7D3D5 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54A386F5269EE4BC00429301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A3870B269EE4BF00429301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A38716269EE4BF00429301 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54A386EF269EE4BC00429301 = {
+			isa = PBXGroup;
+			children = (
+				54A386FA269EE4BC00429301 /* MindTekTask */,
+				54A38711269EE4BF00429301 /* MindTekTaskTests */,
+				54A3871C269EE4BF00429301 /* MindTekTaskUITests */,
+				54A386F9269EE4BC00429301 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54A386F9269EE4BC00429301 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54A386F8269EE4BC00429301 /* MindTekTask.app */,
+				54A3870E269EE4BF00429301 /* MindTekTaskTests.xctest */,
+				54A38719269EE4BF00429301 /* MindTekTaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54A386FA269EE4BC00429301 /* MindTekTask */ = {
+			isa = PBXGroup;
+			children = (
+				54A386FB269EE4BC00429301 /* AppDelegate.swift */,
+				54A386FD269EE4BC00429301 /* SceneDelegate.swift */,
+				54A38736269EE6CD00429301 /* Module */,
+				54A38751269EEB6500429301 /* Prtocol */,
+				54A38757269EEC6E00429301 /* Extension */,
+				54A38701269EE4BC00429301 /* Main.storyboard */,
+				54A38762269EF3B700429301 /* country.json */,
+				54A38704269EE4BF00429301 /* Assets.xcassets */,
+				54A38706269EE4BF00429301 /* LaunchScreen.storyboard */,
+				54A38709269EE4BF00429301 /* Info.plist */,
+			);
+			path = MindTekTask;
+			sourceTree = "<group>";
+		};
+		54A38711269EE4BF00429301 /* MindTekTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				54A38712269EE4BF00429301 /* MindTekTaskTests.swift */,
+				54A38714269EE4BF00429301 /* Info.plist */,
+			);
+			path = MindTekTaskTests;
+			sourceTree = "<group>";
+		};
+		54A3871C269EE4BF00429301 /* MindTekTaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54A3871D269EE4BF00429301 /* MindTekTaskUITests.swift */,
+				54A3871F269EE4BF00429301 /* Info.plist */,
+			);
+			path = MindTekTaskUITests;
+			sourceTree = "<group>";
+		};
+		54A38736269EE6CD00429301 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				54A3876B269EF49900429301 /* Model */,
+				54A3876A269EF48B00429301 /* ViewModel */,
+				54A3873A269EE6F000429301 /* View */,
+				54A3873E269EE6FF00429301 /* Cells */,
+				54A3874A269EE72700429301 /* HeaderView */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		54A3873A269EE6F000429301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				54A386FF269EE4BC00429301 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		54A3873E269EE6FF00429301 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				54A3872E269EE69000429301 /* CarouselCollectionViewTableViewCell.swift */,
+				54A38745269EE71C00429301 /* CarouselCollectionViewCell.swift */,
+				54A3877E269F056700429301 /* CountryTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		54A3874A269EE72700429301 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				54D9316F269F3A8D00A7D3D5 /* SearchHeaderView.swift */,
+				54D9316A269F3A8000A7D3D5 /* SearchHeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		54A38751269EEB6500429301 /* Prtocol */ = {
+			isa = PBXGroup;
+			children = (
+				54A38752269EEBA900429301 /* CellIdentifiable.swift */,
+			);
+			path = Prtocol;
+			sourceTree = "<group>";
+		};
+		54A38757269EEC6E00429301 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				54A38758269EEC8400429301 /* TableView+Extension.swift */,
+				54A3875D269EEC9500429301 /* ColletionView+Extension.swift */,
+				54A38779269F038200429301 /* String+Extension.swift */,
+				54D93177269F3D0F00A7D3D5 /* UIView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		54A3876A269EF48B00429301 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				54A38774269EF59600429301 /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		54A3876B269EF49900429301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				54A3876C269EF4AD00429301 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54A386F7269EE4BC00429301 /* MindTekTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A38722269EE4BF00429301 /* Build configuration list for PBXNativeTarget "MindTekTask" */;
+			buildPhases = (
+				54A386F4269EE4BC00429301 /* Sources */,
+				54A386F5269EE4BC00429301 /* Frameworks */,
+				54A386F6269EE4BC00429301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindTekTask;
+			productName = MindTekTask;
+			productReference = 54A386F8269EE4BC00429301 /* MindTekTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54A3870D269EE4BF00429301 /* MindTekTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A38725269EE4BF00429301 /* Build configuration list for PBXNativeTarget "MindTekTaskTests" */;
+			buildPhases = (
+				54A3870A269EE4BF00429301 /* Sources */,
+				54A3870B269EE4BF00429301 /* Frameworks */,
+				54A3870C269EE4BF00429301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A38710269EE4BF00429301 /* PBXTargetDependency */,
+			);
+			name = MindTekTaskTests;
+			productName = MindTekTaskTests;
+			productReference = 54A3870E269EE4BF00429301 /* MindTekTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54A38718269EE4BF00429301 /* MindTekTaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54A38728269EE4BF00429301 /* Build configuration list for PBXNativeTarget "MindTekTaskUITests" */;
+			buildPhases = (
+				54A38715269EE4BF00429301 /* Sources */,
+				54A38716269EE4BF00429301 /* Frameworks */,
+				54A38717269EE4BF00429301 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54A3871B269EE4BF00429301 /* PBXTargetDependency */,
+			);
+			name = MindTekTaskUITests;
+			productName = MindTekTaskUITests;
+			productReference = 54A38719269EE4BF00429301 /* MindTekTaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54A386F0269EE4BC00429301 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					54A386F7269EE4BC00429301 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					54A3870D269EE4BF00429301 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 54A386F7269EE4BC00429301;
+					};
+					54A38718269EE4BF00429301 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 54A386F7269EE4BC00429301;
+					};
+				};
+			};
+			buildConfigurationList = 54A386F3269EE4BC00429301 /* Build configuration list for PBXProject "MindTekTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54A386EF269EE4BC00429301;
+			productRefGroup = 54A386F9269EE4BC00429301 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54A386F7269EE4BC00429301 /* MindTekTask */,
+				54A3870D269EE4BF00429301 /* MindTekTaskTests */,
+				54A38718269EE4BF00429301 /* MindTekTaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54A386F6269EE4BC00429301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D9316B269F3A8000A7D3D5 /* SearchHeaderView.xib in Resources */,
+				54A38763269EF3B700429301 /* country.json in Resources */,
+				54A38708269EE4BF00429301 /* LaunchScreen.storyboard in Resources */,
+				54A38705269EE4BF00429301 /* Assets.xcassets in Resources */,
+				54A38703269EE4BC00429301 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A3870C269EE4BF00429301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A38717269EE4BF00429301 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54A386F4269EE4BC00429301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A3877F269F056700429301 /* CountryTableViewCell.swift in Sources */,
+				54A38775269EF59600429301 /* ViewModel.swift in Sources */,
+				54A3877A269F038200429301 /* String+Extension.swift in Sources */,
+				54A3876D269EF4AD00429301 /* Model.swift in Sources */,
+				54A38746269EE71C00429301 /* CarouselCollectionViewCell.swift in Sources */,
+				54D93170269F3A8D00A7D3D5 /* SearchHeaderView.swift in Sources */,
+				54A38753269EEBA900429301 /* CellIdentifiable.swift in Sources */,
+				54A38700269EE4BC00429301 /* ViewController.swift in Sources */,
+				54D93178269F3D0F00A7D3D5 /* UIView+Extension.swift in Sources */,
+				54A38759269EEC8400429301 /* TableView+Extension.swift in Sources */,
+				54A3875E269EEC9500429301 /* ColletionView+Extension.swift in Sources */,
+				54A3872F269EE69000429301 /* CarouselCollectionViewTableViewCell.swift in Sources */,
+				54A386FC269EE4BC00429301 /* AppDelegate.swift in Sources */,
+				54A386FE269EE4BC00429301 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A3870A269EE4BF00429301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A38713269EE4BF00429301 /* MindTekTaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54A38715269EE4BF00429301 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A3871E269EE4BF00429301 /* MindTekTaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54A38710269EE4BF00429301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A386F7269EE4BC00429301 /* MindTekTask */;
+			targetProxy = 54A3870F269EE4BF00429301 /* PBXContainerItemProxy */;
+		};
+		54A3871B269EE4BF00429301 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54A386F7269EE4BC00429301 /* MindTekTask */;
+			targetProxy = 54A3871A269EE4BF00429301 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54A38701269EE4BC00429301 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A38702269EE4BC00429301 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54A38706269EE4BF00429301 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54A38707269EE4BF00429301 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54A38720269EE4BF00429301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		54A38721269EE4BF00429301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54A38723269EE4BF00429301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindTekTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anji.MindTekTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54A38724269EE4BF00429301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindTekTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anji.MindTekTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		54A38726269EE4BF00429301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindTekTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anji.MindTekTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindTekTask.app/MindTekTask";
+			};
+			name = Debug;
+		};
+		54A38727269EE4BF00429301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindTekTaskTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anji.MindTekTaskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindTekTask.app/MindTekTask";
+			};
+			name = Release;
+		};
+		54A38729269EE4BF00429301 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindTekTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anji.MindTekTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindTekTask;
+			};
+			name = Debug;
+		};
+		54A3872A269EE4BF00429301 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MindTekTaskUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anji.MindTekTaskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindTekTask;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54A386F3269EE4BC00429301 /* Build configuration list for PBXProject "MindTekTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A38720269EE4BF00429301 /* Debug */,
+				54A38721269EE4BF00429301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A38722269EE4BF00429301 /* Build configuration list for PBXNativeTarget "MindTekTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A38723269EE4BF00429301 /* Debug */,
+				54A38724269EE4BF00429301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A38725269EE4BF00429301 /* Build configuration list for PBXNativeTarget "MindTekTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A38726269EE4BF00429301 /* Debug */,
+				54A38727269EE4BF00429301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54A38728269EE4BF00429301 /* Build configuration list for PBXNativeTarget "MindTekTaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54A38729269EE4BF00429301 /* Debug */,
+				54A3872A269EE4BF00429301 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54A386F0269EE4BC00429301 /* Project object */;
+}
